@@ -22,14 +22,14 @@
 nmap -sS 192.168.1.8
 ```
 Scan Results  
-Port  State  Service  
-135/tcp  open  msrpc  
-139/tcp  open  netbios-ssn  
-445/tcp  open  microsoft-ds  
-8090/tcp  open  opsmessaging  
-49152/tcp  open  unknown  
+Port        State         Service  
+135/tcp     open         msrpc  
+139/tcp     open         netbios-ssn  
+445/tcp     open         microsoft-ds  
+8090/tcp    open         opsmessaging  
+49152/tcp   open         unknown  
 
-Note: 995 TCP ports were closed (reset).  
+NOTE: 995 TCP ports were closed (reset).  
 
 Security Findings  
 Ports 135, 139, 445 (used for Windows networking and file sharing):  
@@ -50,5 +50,5 @@ This is likely a dynamic or private port.
 
 It needs more investigation to figure out the service.  
 
-Conclusion  
+Conclusion  :-
 This scan showed how to find open ports and understand basic network exposure. Some detected services, like NetBIOS and SMB, could be risky if not properly secured, especially on public or shared networks.
