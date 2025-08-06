@@ -1,0 +1,15 @@
+Nmap 7.97 scan report for 192.168.1.8
+Scan type: TCP SYN scan
+Scan started at: 2025-08-06 19:38 +0530
+
+Host is up (0.00011s latency).
+Not shown: 995 closed tcp ports (reset)
+
+PORT      STATE  SERVICE
+135/tcp   open   msrpc
+139/tcp   open   netbios-ssn
+445/tcp   open   microsoft-ds
+8090/tcp  open   opsmessaging
+49152/tcp open   unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
